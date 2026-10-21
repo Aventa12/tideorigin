@@ -11,8 +11,8 @@ The three views are `?page=home`, `?page=about`, and `?page=contact`, so all lin
 ## Branding and content
 
 - Edit `index.html` to update the text and email address.
-- To add a logo, upload it under `assets/` and replace the header and footer brand text with an image. Keep `alt="TideOrigin"`.
-- The ocean image currently uses the same external image URL as the existing tideorigin.com site. Its availability depends on that image host. For independent hosting, save an authorized copy into `assets/` and update the image path.
+- The user-provided transparent logo is stored in `logo.png`, shown in the header and footer, and used as the site icon.
+- The ocean image from the existing tideorigin.com site is stored in `ocean.jpg` so the page does not depend on external image hosting.
 - The contact form opens the visitor's email client. The visitor must send the prepared email; there is no server-side message collection or simulated success message.
 
 ## Custom domain
